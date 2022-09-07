@@ -5,7 +5,7 @@ const WeatherImg = (props) => (
     <h1 className="font-bold text-lg">{props.day}</h1>
     <img
       className={props.classes}
-      src={"/imgs/" + props.icon + ".png"}
+      src={"/ertarn-inter/imgs/" + props.icon + ".png"}
       alt="weather"
       width={props.width}
     />
