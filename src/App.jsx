@@ -13,7 +13,7 @@ function App() {
     <Router>
       <MainLayout>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/ertarn-inter" element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </MainLayout>
